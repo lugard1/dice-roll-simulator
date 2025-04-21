@@ -67,3 +67,17 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: azure;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .dice {
+    font-size: 5rem;
+  }
+}
